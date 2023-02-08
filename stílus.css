@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(hatterek/hatter3.jpg);
+    padding: 0;
+    margin: 0;
+    
+    
+
+}
+main{
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    display: grid;
+    grid-template-areas: "h h h"
+                        "n n n"
+                        "ar ar as as"
+                        "f f f f f f";
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+                        
+
+                        
+
+
+
+
+
+    
+}
+header{
+    font-size: 4vw;
+    font-weight: bold;
+    letter-spacing: 5px;
+
+    
+}
+nav{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+nav.ul{
+    padding: 0px;
+}
+
+nav.li{
+    list-style-type: none;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+a:link{
+    background-color: aquamarine;
+
+}
+article{
+    margin-inline: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+aside{
+    image-resolution: 100%;
+}
+
